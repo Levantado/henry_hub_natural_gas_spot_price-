@@ -9,9 +9,10 @@ Data comes from the [EIA U.S. Energy Information Administration](https://www.eia
 We extract this data and normalize into 3 files:
 *days date format (dd/mm/YYYY)*
 
-* day_grouping.csv - the main file where data showns by 
+* day_grouping.csv - the main file
 
 * month_grouping.csv - the normalizing and grouping data by months 
+
 * year_grouping.csv - the normalizing and grouping data by years
 
 ## Preparation
@@ -29,8 +30,7 @@ positional arguments:
 
 * group_name - day, month, year *(by default day)*
 
-* fname - any csv files *(by default Henry_Hub_Natural_Gas_Spot_Price.csv)
-*
+* fname - any csv files *(by default Henry_Hub_Natural_Gas_Spot_Price.csv)*
 
 ##  License
 This Data Package is licensed by its maintainers under the [Public Domain Dedication and License (PDDL).](https://opendatacommons.org/licenses/pddl/1.0/)
