@@ -1,0 +1,85 @@
+{
+  "profile": "tabular-data-package",
+  "resources": [
+    {
+      "name": "Daily_henry_hub_natural_gas_spot_price",
+      "path": "OUT_DATA/day_grouping.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Day",
+            "type": "date",
+            "format": "dd/mm/YYYY",
+            "title": "Day",
+            "description": "Date of data"
+          },
+          {
+            "name": "Henry Hub Natural Gas Spot Price Dollars per Million Btu",
+            "type": "number",
+            "format": "default",
+            "title": "Henry Hub Natural Gas Spot Price Dollars per Million Btu",
+            "description": "Henry Hub Natural Gas Spot Price Dollars per Million Btu"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Monthly_henry_hub_natural_gas_spot_price",
+      "path": "OUT_DATA/month_grouping.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Day",
+            "type": "date",
+            "format": "dd/mm/YYYY",
+            "title": "Day",
+            "description": "Date of data"
+          },
+          {
+            "name": "Henry Hub Natural Gas Spot Price Dollars per Million Btu",
+            "type": "number",
+            "format": "default",
+            "title": "Henry Hub Natural Gas Spot Price Dollars per Million Btu",
+            "description": "Henry Hub Natural Gas Spot Price Dollars per Million Btu"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Annualy_henry_hub_natural_gas_spot_price",
+      "path": "OUT_DATA/year_grouping.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "name": "Day",
+            "type": "date",
+            "format": "dd/mm/YYYY",
+            "title": "Day",
+            "description": "Date of data"
+          },
+          {
+            "name": "Henry Hub Natural Gas Spot Price Dollars per Million Btu",
+            "type": "number",
+            "format": "default",
+            "title": "Henry Hub Natural Gas Spot Price Dollars per Million Btu",
+            "description": "Henry Hub Natural Gas Spot Price Dollars per Million Btu"
+          }
+        ]
+      }
+    }
+  ],
+  "name": "henry_hub_natural_gas_spot_price",
+  "title": "Henry Hub Natural Gas Spot Price",
+  "description": "Henry Hub Natural Gas Spot Price Dollars per Million Btu",
+  "homepage": "https://www.eia.gov/dnav/ng/hist/rngwhhdD.htm",
+  "licenses": [
+    {
+      "name": "CC0-1.0",
+      "title": "CC0 1.0",
+      "path": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ]
+}
